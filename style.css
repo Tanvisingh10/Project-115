@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-warning:hover{
+    background-color: cyan;
+    color: black;
+    font-family: monospace;
+}
+.btn-info:hover{
+    background-color: lightpink;
+    color: black;
+    font-family: monospace;
+}
+canvas{
+    animation-name: example;
+    animation-duration:  4s;
+    animation-iteration-count: infinite;
+    float: right;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 45px black;}
+    to{box-shadow: 7px 7px 45px skyblue;}
+}
